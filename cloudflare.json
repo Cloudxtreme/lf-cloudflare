@@ -1,0 +1,50 @@
+{
+  "name":"Little Feedback",
+  "description":"Gather useful feedback instantly from your visitors via customized, simple on-site surveys.",
+  "version":"0.1",
+  "category":"survey",
+  "main":"public/javascripts/littlefeedback.js",
+  "config":{
+    "details":{
+      "Language":"English",
+      "Price":"Free",
+      "has_js":true
+    },
+    "assets":{
+      "logos":{
+        "200px":"./public/images/logo-200.png",
+        "132px":"./public/images/logo-132.png"
+      },
+      "detail_page":[
+        "./public/images/detail.png"
+      ],
+      "images":[
+        "./public/images/image.png"
+      ]
+    },
+    "interface":[]
+  },
+  "account":{
+    "callback_url":"http://littlefeedback.com/cloudflare",
+    "user_fields":[
+      "email"
+    ]
+  },
+  "billing":{
+    "type":"zone",
+    "plans":[
+      {
+        "name":"Silver",
+        "price":"25"
+      },
+      {
+        "name":"Gold",
+        "price":"99.99"
+      },
+      {
+        "name":"Platinum",
+        "price":"199.99"
+      }
+    ]
+  }
+}
