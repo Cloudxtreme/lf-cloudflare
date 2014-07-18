@@ -1,6 +1,6 @@
 {
   "name":"Little Feedback",
-  "description":"Gather useful feedback instantly from your visitors via customized, simple on-site surveys.",
+  "description":"Gather useful feedback instantly from your visitors via customized, simple on-site feedback surveys.",
   "version":"0.1",
   "category":"survey",
   "main":"public/javascripts/littlefeedback.js",
@@ -12,8 +12,8 @@
     },
     "assets":{
       "logos":{
-        "200px":"./public/images/logo-200.png",
-        "132px":"./public/images/logo-132.png"
+        "200px":"./public/images/logos/200.png",
+        "132px":"./public/images/logos/132.png"
       },
       "detail_page":[
         "./public/images/detail.png"
