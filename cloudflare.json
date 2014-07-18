@@ -12,14 +12,12 @@
     },
     "assets":{
       "logos":{
-        "200px":"./public/images/logos/200.png",
-        "132px":"./public/images/logos/132.png"
+        "200px":"./public/images/logo-200.png",
+        "132px":"./public/images/logo-132.png"
       },
       "detail_page":[
-        "./public/images/detail.png"
-      ],
-      "images":[
-        "./public/images/image.png"
+        "./public/images/survey.png",
+        "./public/images/edit-survey.png"
       ]
     },
     "interface":[]
